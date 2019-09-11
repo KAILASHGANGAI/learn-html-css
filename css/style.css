@@ -1,0 +1,581 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: "Lobster",cursive;
+    background: #eae9e9;
+}
+.banner{
+    position: relative;
+    background: url("/img/show1.jpg") no-repeat center center/cover;
+    width: 100%;
+    padding-top:40vh;
+    padding-bottom: 40vh;
+    object-fit: center;
+}
+.banner1{
+    background: url("/img/show.jpg") no-repeat center center/cover;
+    object-fit: cover;
+
+}
+.banner2{
+    background: url("/img/samantha-sophia-WNQUJY7Fepw-unsplash.jpg") no-repeat center center/cover;
+    object-fit: cover;
+
+}
+.banner3{
+
+    background: url("/img/adult-champagne-cheers-2705089.jpg") no-repeat center center/cover;
+
+}
+.banner.banner3 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+
+}
+.about-banner{
+    background: url("/img/miti-R1ql7fk3I1Y-unsplash.jpg") no-repeat center center/cover;
+    width: 100%;
+    padding-top:40vh;
+    padding-bottom: 40vh;
+
+}
+.navbar{
+    position: fixed;
+    width: 100%;
+    background: rgba(161, 30, 0, 0.3);
+    padding: 1rem;
+    z-index: 2;
+    box-sizing:border-box;
+
+}
+.navbar ul{
+    list-style: none;
+    padding:1.5rem;
+    float: right;
+    display: flex;    
+}
+.navbar ul :hover{
+    background: red;
+    border: none;
+    border-radius: 5px;  
+}
+.navbar ul li{
+    text-decoration: none;
+    padding: 1rem;
+}
+.clear{
+    clear: both;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: wheat;
+    font-size:1.2REM;
+}
+.navbar ul li a.active{
+    background: #e60000;
+    color: white;
+}
+.mess{
+text-align: center;
+}
+.mess h1{
+    color: wheat;
+    text-align: center;
+    font-size: 3rem;
+   
+    font-style:italic;
+    text-shadow:3px 4px black;
+
+}
+button{
+    padding: 5px;
+    width: 8rem;
+}
+.btn{
+    background: red;
+    color: wheat;
+    border: none;
+    border-radius: 5px ;
+    box-shadow: 2px 2px ;
+    font-size: 22px;
+    font-family: "Lobster",cursive;
+    animation: coloranim 3s infinite;
+    animation: coloranim 3s infinite;
+}
+@keyframes coloranim{
+    form{
+        background-color: #e60000;
+    }
+    to{
+        background-color: green;
+    }
+}
+.product-section{
+    padding-top:50px;
+    padding-bottom:50px;
+    align-items: center;
+}
+.section-header{
+    text-align: center;
+    margin-bottom:30px;
+
+}
+.product-section .section-header span{
+font-size: 18px;
+
+}
+.product-section .section-header h2{
+    color:red;
+    font-size: 2rem;
+}
+.row{
+    display: flex;
+    text-align: center;
+    font-size: 2rem;
+    padding: 3rem;
+    align-items: justify;
+}
+.row .product-item1{
+    background-image: url("/img/cake.jpg");
+   width: 30%;
+   height: 200px;
+   margin: 2rem;
+   border-radius: 5px;
+    background-size: cover;
+}
+.row .product-item1 h1{
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+}
+.row .product-item2{
+    background-image: url("/img/cup-cake.jpg");
+    width: 30%;
+    height: 200px;
+    margin: 2rem;
+    border-radius: 5px;
+    background-size: cover;
+   
+}
+.row .product-item2 h1{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+  }
+.row .product-item3{
+    background-image: url("/img/icecream2.jpg");
+    width: 30%;
+    height: 200px;
+    height: 200px;
+    margin: 2rem;
+    border-radius: 5px;
+    background-size: cover;
+   
+}
+.row .product-item3 h1{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+  }
+.btn1{
+    widows:7rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: wheat;
+    background: red;
+    align-items: center;
+    margin-left: 45%;
+    position: relative; 
+    font-family: "Lobster",cursive;
+}
+.btn1:hover{
+    background: darkred;
+}
+.services{
+    background:url("/img/birth.jpg") no-repeat center center/cover;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 3rem;
+    color: wheat;
+    position: relative;
+    box-sizing: border-box;
+}
+.services:before{
+    content: "";
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background:#333;
+    opacity:0.7;
+}
+
+.service-header{
+    padding: 2rem;
+    text-align: center;
+    position: relative;
+}
+.visit-us h2{
+    color: red;
+    text-decoration: underline;
+    font-size: 35px;
+}
+.services h2{
+font-size: 2rem;
+}
+.visit-us span{
+    font-size: 20px;
+}
+
+.service-item{
+    display: flex;
+    padding: 3rem;
+    box-sizing: border-box;
+    position: relative;
+    justify-content: space-evenly
+}
+
+.service1,
+.service2,
+.service3,
+.service4{
+    border: 5px solid wheat;
+    border-radius: 7px;
+    margin: 1rem;
+    width: 30%;
+    text-align: center;
+}
+.service1,
+.service2,
+.service3,
+.service4{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+.service1 i::before,
+.service2 i::before,
+.service3 i::before,
+.service4 i::before{
+    font-size: 100px;
+    margin: 1rem;
+
+}
+.visit{
+    display: flex;
+    padding: 2rem;
+    align-items: center;
+    }
+
+.contact-detail{
+    text-align: center;
+    width: 50%;
+    height:250px;
+    background: white;
+    line-height: 35px;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 5px;
+    margin: 1rem;
+}
+.map{
+    width: 100%;
+}
+.contact-detail address{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+address i{
+    font-size: 30px;
+    color: red;
+
+}
+.footer-section h4{
+    font-size: 25px;
+    padding: 20px;
+}
+.footer-section{
+    background:#e60000;
+    color: #fff;
+
+}
+.paaila{
+    text-align: center;
+    padding: 1rem;
+    font-size: 22px;
+    background:#dc3545;
+    border-radius: 5px;
+}
+.social-icon i{
+    font-size: 30px;
+    margin:5px;
+}
+.about-detail , .product-detail{
+    text-align: center;
+    line-height: 2rem;
+    padding: 50px 10px;
+    font-size: 22px;
+    letter-spacing: 3px;
+    text-shadow: 0 0 0.01rem;
+    font-family: 'Open Sans', sans-serif;
+}
+.col1{
+    background: url("/pro-img/wedding-cake.jpg") no-repeat center center/cover;
+    
+}
+.col2{
+    background: url("/pro-img/birthday-birthday-cake-cake-140831.jpg") no-repeat center center/cover;
+   
+}
+.col3{
+    background: url("/pro-img/birthday-cake-candles-112787.jpg") no-repeat center center/cover;
+   
+}
+.col4{
+    background: url("/pro-img/bake-baking-cake-913136\ \(1\).jpg") no-repeat center center/cover;
+   
+}
+.col5{
+    background: url("/pro-img/events.jpg") no-repeat center center/cover;
+   
+}
+.col6{
+    background: url("/pro-img/cake-food-food-photography-69817.jpg") no-repeat center center/cover;
+   
+}
+.col7{
+    background: url("/pro-img/sanwitch.jpg") no-repeat center center/cover;
+ 
+}
+.col8{
+    background: url("/pro-img/cartoon-cake.jpg") no-repeat center center/cover;
+    
+   
+}
+.product{
+    margin: 2rem;
+    text-align: center;
+    padding-top: 18vh;
+    padding-bottom:18vh;
+    border-radius: 5px;
+    box-shadow: 0 0 15px 0 rgba(90,90,90,0.5);
+    width: 50%;
+    font-size: 30px;
+    color:lightyellow;
+}
+.columbs{
+    display: flex;
+}
+.contact-form{
+    padding:3rem;
+    font-size: 2rem;
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    box-sizing: border-box;
+}
+.contact-form{
+    display: block;
+    width: 100%;
+    min-height: 1px;
+}
+.contact-form form{ 
+    padding:2% 25%;
+}
+.btn2{
+    background: none;
+    border: 1px solid red;
+    color: red;
+    margin-left: 0;
+}
+.form-control{
+   float: right;
+    width: 100%;
+    min-height: 2rem;
+    border:none;
+    border-radius: 0.25rem;
+}
+.address{
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+}
+.address input{
+    display: block;
+    width: 100%;
+
+}
+.address:after{
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
+}
+.contact-no{
+    width: 50%;
+    box-sizing: border-box;
+    float: left;
+    padding-left: 5px;
+}
+.contact-no input{
+    width: 100%;
+
+}
+.gallery-section{
+    display: flex;
+    align-items: center;
+
+}
+.gallery{
+   
+    width: 90%;
+    height: 350px;
+    border: 2px solid black;
+    margin: 1rem;
+    overflow:hidden;
+    position: center;
+    border-radius: 5px;
+    box-shadow: 0 0 15px 0 rgba(90,90,90,0.9);
+
+
+}
+.gallery img{
+    width: 100%;
+    height: 310px;
+}
+.gallery:hover{
+    opacity: 0.5;
+    border: none;
+}
+.gallery .desc{
+    font-size: 22px;
+    text-align: center;
+    padding:5px;
+    background: #333;
+    color: white;
+    display:block;
+}
+.owl-dots{
+    display:none;
+}
+
+@media only screen and  (max-width:768px){
+    .navbar{
+        margin-bottom: 0;
+        position: relative;
+    }
+    .navbar ul{
+        display:inline-block;
+        width: 100%
+    }
+    nav ul li a{
+    float: none;    
+    }
+    .row{
+        margin:0;
+        justify-content: space-evenly;
+    }
+    .row h1{
+        font-size:28px;
+    }
+    .row .product-item1,.row .product-item2,.row .product-item3{
+        margin:15px 1%;
+
+        
+    }
+    .product-section{
+        display: inline-block;
+        width: 100%;
+    }
+    .contact-detail address{
+        padding:20px 15px;
+        text-align:left;
+        font-size:80%;
+    }
+    .columbs{
+        display: inline-block;
+        margin: 0;
+        width: 100%;
+        margin-bottom: 3px;
+    }
+    .product{
+        margin: 0;
+       width: 100%;
+       margin-bottom: 10px;
+    }
+    .contact-form{
+        padding: 5px;
+    }
+    .address{
+        width: 100%;
+    }
+    .contact-no{
+        float: none;
+        width: 100%;
+    }
+}
+#menu{
+    display:none;
+}
+
+  
+@media only screen and  (max-width:480px){
+    #menu{
+        display:block;
+        float:right;
+        background-color:transparent;
+        border:none;
+        font-size: 40px;
+        line-height:50px;
+    }
+    #menu_wrapper{
+        display:none;
+    }
+    #menu_wrapper.show{
+        display:block;
+    }
+    .banner .mess h1{
+        font-size: 30px;
+    }
+    .row{
+        display: inline-block;
+        width:100%;
+        padding:1px;
+
+    }
+    .row .product-item1,.row .product-item2,.row .product-item3{
+        width:100%;
+    }
+    .btn1{
+        margin-left:30%;
+    }
+.service-item{
+    display: inline-block;
+    width: 100%;
+    padding: 5px;
+}
+.service-item .service1,
+.service-item .service2,
+.service-item .service3,
+.service-item .service4{
+    width: 100%;
+    margin: 5px;
+    height: auto;
+}
+.visit{
+    display: inline-block;
+    padding: 5px;
+}
+.contact-detail{
+    width: 100%;
+    font-size: 20px;
+}
+.btn1{
+    margin-left: 35%;
+}
+
+} 
