@@ -10,25 +10,25 @@ body{
 }
 .banner{
     position: relative;
-    background: url("/img/show1.jpg") no-repeat center center/cover;
+    background: url("../img/show1.jpg") no-repeat center center/cover;
     width: 100%;
     padding-top:40vh;
     padding-bottom: 40vh;
     object-fit: center;
 }
 .banner1{
-    background: url("/img/show.jpg") no-repeat center center/cover;
+    background: url("../img/show.jpg") no-repeat center center/cover;
     object-fit: cover;
 
 }
 .banner2{
-    background: url("/img/samantha-sophia-WNQUJY7Fepw-unsplash.jpg") no-repeat center center/cover;
+    background: url("../img/samantha-sophia-WNQUJY7Fepw-unsplash.jpg") no-repeat center center/cover;
     object-fit: cover;
 
 }
 .banner3{
 
-    background: url("/img/adult-champagne-cheers-2705089.jpg") no-repeat center center/cover;
+    background: url("../img/adult-champagne-cheers-2705089.jpg") no-repeat center center/cover;
 
 }
 .banner.banner3 img{
@@ -39,7 +39,7 @@ body{
 
 }
 .about-banner{
-    background: url("/img/miti-R1ql7fk3I1Y-unsplash.jpg") no-repeat center center/cover;
+    background: url("../img/miti-R1ql7fk3I1Y-unsplash.jpg") no-repeat center center/cover;
     width: 100%;
     padding-top:40vh;
     padding-bottom: 40vh;
@@ -142,7 +142,7 @@ font-size: 18px;
     align-items: justify;
 }
 .row .product-item1{
-    background-image: url("/img/cake.jpg");
+    background-image: url("../img/cake.jpg");
    width: 30%;
    height: 200px;
    margin: 2rem;
@@ -154,7 +154,7 @@ font-size: 18px;
   padding-bottom: 10vh;
 }
 .row .product-item2{
-    background-image: url("/img/cup-cake.jpg");
+    background-image: url("../img/cup-cake.jpg");
     width: 30%;
     height: 200px;
     margin: 2rem;
@@ -167,7 +167,7 @@ font-size: 18px;
     padding-bottom: 10vh;
   }
 .row .product-item3{
-    background-image: url("/img/icecream2.jpg");
+    background-image: url("../img/icecream2.jpg");
     width: 30%;
     height: 200px;
     height: 200px;
@@ -196,7 +196,7 @@ font-size: 18px;
     background: darkred;
 }
 .services{
-    background:url("/img/birth.jpg") no-repeat center center/cover;
+    background:url("../img/birth.jpg") no-repeat center center/cover;
     width: 100%;
     box-sizing: border-box;
     padding: 3rem;
@@ -324,35 +324,35 @@ address i{
     font-family: 'Open Sans', sans-serif;
 }
 .col1{
-    background: url("/pro-img/wedding-cake.jpg") no-repeat center center/cover;
+    background: url("../pro-img/wedding-cake.jpg") no-repeat center center/cover;
     
 }
 .col2{
-    background: url("/pro-img/birthday-birthday-cake-cake-140831.jpg") no-repeat center center/cover;
+    background: url("../pro-img/birthday-birthday-cake-cake-140831.jpg") no-repeat center center/cover;
    
 }
 .col3{
-    background: url("/pro-img/birthday-cake-candles-112787.jpg") no-repeat center center/cover;
+    background: url("../pro-img/birthday-cake-candles-112787.jpg") no-repeat center center/cover;
    
 }
 .col4{
-    background: url("/pro-img/bake-baking-cake-913136\ \(1\).jpg") no-repeat center center/cover;
+    background: url("../pro-img/bake-baking-cake-913136\ \(1\).jpg") no-repeat center center/cover;
    
 }
 .col5{
-    background: url("/pro-img/events.jpg") no-repeat center center/cover;
+    background: url("../pro-img/events.jpg") no-repeat center center/cover;
    
 }
 .col6{
-    background: url("/pro-img/cake-food-food-photography-69817.jpg") no-repeat center center/cover;
+    background: url("../pro-img/cake-food-food-photography-69817.jpg") no-repeat center center/cover;
    
 }
 .col7{
-    background: url("/pro-img/sanwitch.jpg") no-repeat center center/cover;
+    background: url("../pro-img/sanwitch.jpg") no-repeat center center/cover;
  
 }
 .col8{
-    background: url("/pro-img/cartoon-cake.jpg") no-repeat center center/cover;
+    background: url("../pro-img/cartoon-cake.jpg") no-repeat center center/cover;
     
    
 }
